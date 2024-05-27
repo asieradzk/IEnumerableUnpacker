@@ -26,10 +26,10 @@ Install-Package IEnumerableUnpacker
 Here's an example of how to use IEnumerableUnpacker:
 
 ```csharp
+//YOUR CODE:
 [Unpackable]
 public class UnpackMe<Titem, Titem2, UselessGeneric>
 {
-//YOUR CODE:
     [Unpack("MyItegersOut")]
     public int[] myIntegers;
 

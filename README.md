@@ -61,13 +61,17 @@ In this example:
 
 For more detailed benchmarks and comparisons, please visit the [project repository](https://github.com/asieradzk/IEnumerableUnpacker). 📊
 
+## Benchmarks
+Benchmarks and template for generated source is aviable in [Benchmark repository](https://github.com/asieradzk/UnpackBenchmarks)
+
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/asieradzk/IEnumerableUnpacker). 😊
 
 ## License
 
-ArrayUnpacker is licensed under the [MIT License](https://github.com/asieradzk/IEnumerableUnpacker/blob/master/LICENSE.txt).
+IEnumerableUnpacker is licensed under the [MIT License](https://github.com/asieradzk/IEnumerableUnpacker/blob/master/LICENSE.txt).
 
 ## Note
 

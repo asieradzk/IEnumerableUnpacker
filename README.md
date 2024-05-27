@@ -29,6 +29,7 @@ Here's an example of how to use IEnumerableUnpacker:
 [Unpackable]
 public class UnpackMe<Titem, Titem2, UselessGeneric>
 {
+//YOUR CODE:
     [Unpack("MyItegersOut")]
     public int[] myIntegers;
 
@@ -44,7 +45,7 @@ public class UnpackMe<Titem, Titem2, UselessGeneric>
     [Unpack("MyGeneric2Out")]
     public Titem2 myGeneric2;
 }
-
+//GENERATED CODE:
 public static unsafe void UnpackUnpackMe<Titem, Titem2, UselessGeneric>(this IEnumerable<UnpackMe<Titem, Titem2, UselessGeneric>> source, out int[,] MyItegersOut, out int[] MyIntegerOut, out float[,] MyFloatsOut, out Titem[,] MyGenericOut, out Titem2[] MyGeneric2Out)
 {
     // Unpacking logic...

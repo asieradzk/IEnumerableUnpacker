@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>IEnumerableUnpacker</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Adrian Sieradzki</Authors>
+		<Company>Adrian Sieradzki</Company>
+		<Description>Small source generator that enables efficient unpacking of IEnumerable's members to 1d and 2d arrays.</Description>
+		<PackageProjectUrl>https://github.com/yourusername/yourproject</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/yourusername/yourproject</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>IEnumerable Unpacking, Unpacking, Flatten, Arrays</PackageTags>
+		<PackageDescription>Small source generator that enables efficient unpacking of IEnumerable's members to 1d and 2d arrays.</PackageDescription>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.9.2" />
+	</ItemGroup>
+
+</Project>

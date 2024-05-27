@@ -9,8 +9,8 @@
 		<Authors>Adrian Sieradzki</Authors>
 		<Company>Adrian Sieradzki</Company>
 		<Description>Small source generator that enables efficient unpacking of IEnumerable's members to 1d and 2d arrays.</Description>
-		<PackageProjectUrl>https://github.com/yourusername/yourproject</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/yourusername/yourproject</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/asieradzk/IEnumerableUnpacker</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/asieradzk/IEnumerableUnpacker</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>IEnumerable Unpacking, Unpacking, Flatten, Arrays</PackageTags>
 		<PackageDescription>Small source generator that enables efficient unpacking of IEnumerable's members to 1d and 2d arrays.</PackageDescription>
